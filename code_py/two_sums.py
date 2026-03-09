@@ -27,4 +27,4 @@ while i < len(nums) - 1:
             new_item[i] = j
         j += 1
     i += 1
-    print(new_item)
+    print(list(new_item.values()))
